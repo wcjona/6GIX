@@ -1,0 +1,57 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: black;
+}
+.banner-text{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ededed;
+    color: white;
+    font-size: 80px;
+}
+.promo-image{
+    padding-top: 3%;
+    height: 900px;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+ .bg-navbar{
+    background-color: #ededed
+}
+#introduction{
+    background-color: #f9f9f9;
+    padding: 5%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+#banner{
+    color: white;
+}
+a:link {
+    text-decoration: none;
+    color: black; 
+    
+  }
+#components{
+    padding: 5%;
+}
+.fa-5x{
+    color: black;
+}
+.description{
+    color: black;
+}
+.project-component{
+    background-color: antiquewhite;
+    padding: 5%;
+    margin: 5%;
+    border-radius: 25px;
+    align-items: center;
+}
+.project-component .hover{
+    background-color: #444444;
+}
