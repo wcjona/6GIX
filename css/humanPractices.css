@@ -1,16 +1,37 @@
+
 .banner-text{
     top: 40%;
 }
 #ideate{
     text-align: left;
-    padding: 10%; 
-    padding-top: 1%;
-    padding-bottom: 2%;
+    padding: 12%; 
+    padding-top: 2%;
+    padding-bottom: 3%;
 }
 #ideate-header{
     padding: 1%;
-  
-    text-align: center;
-    padding-bottom: 5px;
+    padding-left: 12%;
+    text-align: left;
+    padding-bottom: 7px;
 
+}
+#design-sol{
+    padding:10%;
+    padding-top:10%;
+}
+h2{
+    color: #44270d;
+    text-decoration: underline;
+}
+
+#evaluate{
+    background-color: #44270d;
+    color: white;
+    padding: 5% 10% ;
+
+
+}
+.white{
+    color: white;
+    text-decoration: underline;
 }

@@ -1,7 +1,11 @@
 /* DEFAULT */
+html {
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Karla', sans-serif;
     color: black;
+    padding-top: 65px;
 }
 p{
     font-family: 'Spectral', serif;
