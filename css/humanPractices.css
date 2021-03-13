@@ -2,5 +2,15 @@
     top: 40%;
 }
 #ideate{
-    text-align: right;
+    text-align: left;
+    padding: 10%; 
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+#ideate-header{
+    padding: 1%;
+  
+    text-align: center;
+    padding-bottom: 5px;
+
 }

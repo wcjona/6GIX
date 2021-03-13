@@ -2,7 +2,6 @@
 body{
     font-family: 'Karla', sans-serif;
     color: black;
-    text-align: center;
 }
 p{
     font-family: 'Spectral', serif;
@@ -22,7 +21,7 @@ p{
     transform: translate(-50%, -50%);
   }
  .bg-navbar{
-    background-color: #849571;
+    background-color: #4b5c38;
 
 }
  .intro{
@@ -33,3 +32,15 @@ p{
  h1{
      text-decoration: underline;
  }
+ .brown-dark{
+    background-color: #44270d;
+    color: white;
+ }
+  .green-dark-header{
+    background-color: #4b5c38;
+    color: white;
+  }
+  .green-dark-body{
+      background-color: #606c38;
+    color: white;
+  }
