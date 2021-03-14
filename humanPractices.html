@@ -32,9 +32,22 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav  ml-auto">
-              </li>
-                <a class="nav-link" href="index.html#banner">Home</a>
-              </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <ul class="nav flex-column" style="margin-left: 0px">
+                  <li>
+                    <a class="dropdown-item" href="index.html">Introduction</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="index.html#gix-header">6GIX Solutions</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="index.html#components">Project Components</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="humanPractices.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Human Practices</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -86,78 +99,96 @@
         <h1 class="centered banner-text">Human Practices</h1>
     </section>
     <!-- PROBLEM -->
+    <section id="problem-header">
+      <h1>UNDERSTANDING THE PROBLEM</h1>
+    </section>
     <section id="problem" class="intro">
-        <h1><u>The Problem</u></h1>
-        <br>
-        <p>Eutrophication is the over-enrichment of nutrients in aquatic ecosystems leading 
-          to excessive plant and algal growth. Eutrophication is a highly detrimental environmental 
-          condition and is a leading cause of impairment in many freshwater and coastal marine ecosystems 
-          globally. While eutrophication can occur naturally over centuries, human activities have accelerated 
-          the rate and extent of eutrophication. With the estimated cost of damage by eutrophication in the U.S. 
-          being approximately $2.2 billion annually(Dodds et al. 2009), it is important to detect signs of eutrophication 
-          early on in order to prevent further damage to the whatever.</p>
+        <p>We wanted to better understand the extent of the impact and consequences of eutrophication in lakes 
+          and how to monitor water quality to detect early signs. While eutrophication is a problem that affects 
+          aquatic eco-systems worldwide we decided to focus on lake ecosystems locally in Alberta, thus we 
+          decided to reach out to the members at the Alberta Lake Management Society(ALMS). Specifically, we 
+          talked to Caleb Sinn, who is currently the program manager at ALMS and worked previously as a LakeWatch 
+          technician in 2019. One of the lake monitoring projects he mangages in the LakeKeepers project which 
+          involves monitoring lake conditions and water qualities and detecting early signs of eutrophication.
+        </p>
+    </section>
+    <!-- PERSON -->
+    <section id="person">
+      <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-4">
+          <img style="width: 80%" src="images/person.jfif" alt="">
+        </div>
+      
+        <div class="col-lg-6">
+            <br><br><br><br><br>
+            <h1><b>Caleb Sinn</b></h1>
+            <h3><i>Program Manager at Alberta Lake Management society</i></h3>
+        </div>
+      </div>
     </section>
     <!-- IDEATE -->
     <section id="ideate-header" class="green-dark-header">
-      <h1>Ideate</h1>
+      <h1><u>Ideate</u></h1>
     </section>
     <section id="ideate" class="green-dark-body">
       <div class="row">
-        
-        <div class="col-lg-4">
-          <img style="width: 550px" src="images/ideate.jpg" alt="">
-        </div>
-        <div class="col-lg-2"></div>
         <div class="col-lg-5">
-          <p>We propose the use of a chlorophyll-binding protein used in an emulsion system to remove the chlorophyll 
-            from canola oil pressed from green seeds. To verify the need of this solution we would like to speak to a 
-            representative from the Canadian Canola Commision.
-            <br> 
-            <br> 
-            Chlorophyll a is often used as an indicator of water quality since it is a photosynthetic pigment that can 
-            be used as a direct indication of algal production thus indicating eutrophication in lakes (Doering et al., 2006). 
-            However, the current detection methods are expensive, difficult to use, and slow, which is undesirable.  
-            Our proposed solution is 6GIX, a water-soluble chlorophyll-binding protein (WSCP), which is hypothesized to act 
-            as a transient carrier of chlorophyll a (Sillner et al., 2019). Due to the hydrophobic nature of chlorophyll a, 
-            emulsions can be used to capture and bind chlorophyll a to 6GIX (Sillner et al., 2019). The gene encoding for 6GIX 
-            can be engineered and expressed in E. Coli, which allows for mass protein production (iGEM Calgary Team, 2019). This 
-            can then be used as a chlorophyll detection system, enabling the quality of water to be determined. 
-          </p>
+          <p>We propose the use of 6gix, a water-soluble chlorophyll-binding protein in our chlorophyll detection 
+            system for determining water quality and indication of eutrophication in lakes.To verify the need of 
+            this solution we will speak to <b>Rebecca Tasko</b>, who is an <b>Environmental Management Specialist with the 
+            Alberta Environment and Parks(AEP)</b>, as well as a director at the ALMS. She is also a professional 
+            biologist and she has worked as a surface water specialist doing environmental consulting for the 
+            past four years. We felt that her expertise would not only verify the feasibility of our solution from 
+            a scientific standpoint as well as its applicability and need for aquatic water management.</p>
+        </div>
+        <div class="col-lg-1"></div>
+        <div class="col-lg-3">
+          <img style="width: 75%" src="images/alberta.png" alt="">
+        </div>
+        
+        <div class="col-lg-3">
+          <img style="width: 75%" src="images/alms.png" alt="">
         </div>
       </div>
     </section>
     <!-- DESIGN SOLUTIONS -->
-    <section id="design-sol">
-      <h2>Design Solution</h2>
-      <br> 
+    <section id="design-sol">      
       <div class="row">
         <div class="col-lg-5">
+          <h1><u>Design Solution</u></h1>
+          <br> 
+          <br>
           <p> In order to correctly design and produce our chlorophyll-binding protein we will have to consult professors at 
-            the University of Calgary who have the right expertise. Approaching someone like Dr. Raymond Turner who is a biochemistry 
+            the University of Calgary who have the right expertise. Approaching someone like <b>Dr. Raymond Turner</b> who is a biochemistry 
             professor with significant experience in genetic construct design and recombinant protein production would be ideal. 
           </p>
         </div>
         <div class="col-lg-1"></div>
         <div class="col-lg-5">
-          <img style="width: 100%" src="images/design-solution.jpg" alt="">
+          <img style="width: 100%" src="images/design-sol.jpg" alt="">
         </div>
       </div>
     </section>
     <!-- EVALUATE AND ITERATE ON DESIGN -->
+    <section id="evaluate-header">
+      <h1><u>Evaluate and Iterate on Design</u></h1>
+    </section>
+    
     <section id="evaluate">
-      <h2 class="white">Evaluate and Iterate on Design</h2>
       <br> 
       <div class="row">
-        <div class="col-lg-5">
-          <p> Once we have produced and tested our chlorophyll binding protein we would like to host a faculty talk inviting all of our 
-            academic and industry contacts to evaluate the design of our solution and propose improvements. We would also like to speak with 
-            Richardson Oilseed, and oil-processing company to see if they have any suggestions on how our solution could be incorporated 
-            into industry (include an image). 
+        <div class="col-lg-5 left">
+          <br><br>
+          <p> Once we have produced and tested our 6gix protein we would like to host a faculty talk inviting 
+            all of our academic and industry contacts to evaluate the design of our solution and propose 
+            improvements. To further explore the application of our protein, we would like to reach out to 
+            <b>Emily Hicks</b>, who is the <b>president and co-founder at FREDsense Technology</b> to explore the protein’s potentials in the biosensor industry. 
           </p>
         </div>
         <div class="col-lg-1"></div>
-        <div class="col-lg-5">
-          <img style="width: 100%" src="images/evaluate.jpg" alt="">
+        <div class="col-lg-4">
+          <img style="width: 100%" src="images/emily-hicks.png" alt="">
         </div>
       </div>
     </section>

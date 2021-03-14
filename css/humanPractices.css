@@ -1,12 +1,40 @@
 
+body{
+    font-size: larger;
+}
+#problem-header{
+    background: #E2B178;
+    padding: 1% 5%;
+    color: #44270d;
+    font-weight: bold;
+    font-size: x-large;
+}
+#problem{
+    font-size: larger;
+    padding: 5%;
+}
 .banner-text{
     top: 40%;
+}
+#person{
+    padding: 5% 10%;
+    background: #FBF9EA;
+
+}
+#person h1{
+    color: #44270d;
+}
+#person h3{
+    font-family: 'Spectral', serif;
 }
 #ideate{
     text-align: left;
     padding: 12%; 
     padding-top: 2%;
     padding-bottom: 3%;
+}
+#ideate b{
+    color:#E2B178;
 }
 #ideate-header{
     padding: 1%;
@@ -19,16 +47,20 @@
     padding:10%;
     padding-top:10%;
 }
-h2{
+#design-sol h1{
     color: #44270d;
-    text-decoration: underline;
 }
-
+#design-sol b{
+    color: #44270d;
+}
+#evaluate-header{
+    padding: 1% 10%;
+    color: #4b5c38;
+}
 #evaluate{
-    background-color: #44270d;
+    background-color: #4b5c38;
     color: white;
     padding: 5% 10% ;
-
 
 }
 .white{
