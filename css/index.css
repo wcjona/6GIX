@@ -1,32 +1,63 @@
+
 /* INTRODUCTION */
-#introduction{
-    background-color: #FBF9EA;
+b{
+    color: #44270D;
 }
-h1 {
+#intro-header{
+    background: #E2B178;
+    text-align: center;
+    padding: 1%;
+}
+body{
+    font-size: x-large;
+}
+
+.introduction h1, #quote h1 {
     color: #44270D; 
 }
-/* BANNER */
+#quote{
+    background: #FBF9EA;
+    padding: 5%;
+    font-family: 'Spectral', serif;
+}
 /* COMPONENTS */
 #components{
-    padding: 5%;
+    padding: 7%;
     background-color: white;
     text-align: center;
 }
+#components h1{
+    background-color: #F8F4DE;
+    padding: 1% 2%;
+    border-radius: 25px;
+    align-items: center;
+    color: #4b5c38;
+    margin: 0% 35%;
+}
 a:link {
     text-decoration: none;
-    color: black; 
+    color: #525E45; 
     
   }
 .fa-5x{
-    color: black; 
+    color: #525E45;
 }
 .description{
-    color: black; 
+    font-size: large;
+    color: #525E45;
 }
 .project-component{
-    background-color:#606c38;
+    background: #F8F4DE;
+    
     padding: 5%;
     margin: 5%;
     border-radius: 25px;
     align-items: center;
+}
+/* 6GIX */
+#gix-header {
+    padding: 1%;
+}
+#gix{
+    padding: 3% 10%;
 }

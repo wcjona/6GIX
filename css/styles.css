@@ -48,8 +48,17 @@ p{
   .green-dark-header{
     background-color: #4b5c38;
     color: white;
+    text-align: center;
   }
   .green-dark-body{
       background-color: #606c38;
     color: white;
+  }
+  .green-dark-body b{
+      color: #E2B178;
+  }
+  footer{
+    background-color: #4b5c38;
+    padding: 2% 5% 1%;
+    font-size: medium;
   }
