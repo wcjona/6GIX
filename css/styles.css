@@ -6,9 +6,13 @@ body{
     font-family: 'Karla', sans-serif;
     color: black;
     padding-top: 65px;
+    font-size: larger;
 }
 p{
     font-family: 'Spectral', serif;
+}
+.navbar{
+    font-size: large;
 }
 .banner-text{
     color: white;
