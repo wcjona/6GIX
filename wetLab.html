@@ -26,8 +26,9 @@
   <section id="navbar">
     <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-navbar">
       <nav class="navbar navbar-light">
-        <a class="navbar-brand" href="index.html#banner">
-          <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt=""> Project Name</a>
+        <a class="navbar-brand" href="index.html#banner" style="color: white;">
+          <img src="images/logo.png" width="30" height="30" class="logo" alt=""> Eutrophication
+        </a>
       </nav>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -39,7 +40,7 @@
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <ul class="nav flex-column" style="margin-left: 0px">
                   <li>
-                    <a class="dropdown-item" href="index.html">Introduction</a>
+                    <a class="dropdown-item" href="index.html#banner">Introduction</a>
                   </li>
                   <li>
                     <a class="dropdown-item" href="index.html#gix-header">6GIX Solutions</a>
@@ -51,11 +52,11 @@
               </div>
             </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="humanPractices.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Human Practices</a>
+                    <a class="nav-link dropdown-toggle" href="humanPractices.html#banner" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Human Practices</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                       <ul class="nav flex-column" style="margin-left: 0px">
                         <li>
-                          <a class="dropdown-item" href="humanPractices.html">The Problem</a>
+                          <a class="dropdown-item" href="humanPractices.html#banner">The Problem</a>
                         </li>
                         <li>
                           <a class="dropdown-item" href="humanPractices.html#ideate-header">Ideate</a>
@@ -74,16 +75,16 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                       <ul class="nav flex-column" style="margin-left: 0px">
                         <li>
-                          <a class="dropdown-item" href="wetLab.html">Overview</a>
+                          <a class="dropdown-item" href="wetLab.html#banner">Overview</a>
                         </li>
                         <li>
                           <a class="dropdown-item" href="wetLab.html#protocol">Protocol</a>
                         </li>
                         <li>
-                          <a class="dropdown-item" href="wetLab.html#nextSteps">Analysis of the gel</a>
+                          <a class="dropdown-item" href="wetLab.html#analysis">Analysis of the gel</a>
                         </li>
                         <li>
-                          <a class="dropdown-item" href="wetLab.html">Flow Diagram</a>
+                          <a class="dropdown-item" href="wetLab.html#flowDiagram-header">Flow Diagram</a>
                         </li>
                       </ul>
                     </div>
@@ -261,10 +262,38 @@
         </div>
       </div>
     </section>
+    <!-- ANALYSIS OF GEL -->
+    <section id="analysis" >
+      <h1><u>Analysis of Gel</u></h1>
+      <div class="row">
+        <div class="col-lg-12">
+          <h3>Description:</h3>
+          <p>In the top row, from lanes 2-9, there were no bands observed in Simran’s PCR colony. The positive 
+            control, which were from cells previously transformed and known to contain 6GIX, were in lanes 11-17, 
+            and show bands with the expected size of 6GIX (709bp). Since no bands were present in Simran’s PCR colony 
+            to indicate the presence of the 6GIX insert in the gel, and bands were present in the positive control, this 
+            indicates that the PCR amplification of 6GIX in Simran’s PCR colony was unsuccessful. In the bottom row, from lanes 
+            2-7 was the positive control, which shows the expected size of 6GIX, and Simran’s PCR colony was from lanes 9-16, 
+            which shows no bands. This indicates an unsuccessful PCR amplification of 6GIX.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8">
+          <br><br><br>
+          <img style="width: 100%" src="images/gel.png" alt="">
+          <p><b>Figure 2.</b> 1% agarose gel showing colony PCR of 6GIX gene 
+            insert in pSB1C3. Ran gel at 100V for 30 minutes. Lanes from left to right on the top 
+            row of gel were BioBasic ladder (100-1500bp), Simran PCR Colony (lanes 2-9), and Positive 
+            Control (lanes 9-16). Lanes from left to right in the bottom row were BioBasic ladder 
+            (100-1500bp), Positive control (lanes 2-7), and Simran PCR colony (lanes 9-16). The expected 
+            band size for 6GIX is 709bp.</p>
+      </div>
+    </section>
+    <!-- FLOW DIAGRAM -->
     <section id="flowDiagram-header">
       <h1><u>Flow Diagram</u></h1>
     </section>
-    
     <section id="flowDiagram" class="green-dark-header">
       <br> 
       <div class="row">
@@ -281,37 +310,9 @@
         <div class="col-lg-1"></div>
         <div class="col-lg-6" style="text-align: center;">
           <img style="width: 100%" src="images/labWorkflowDark.png" alt="">
-          <p><b>&nbsp;&nbsp;&nbsp;&nbsp;Figure 2:</b> Diagram showcasing the lab workflow of the steps currently completed in the lab</p>
+          <p><b>&nbsp;&nbsp;&nbsp;&nbsp;Figure 3:</b> Diagram showcasing the lab workflow of the steps currently completed in the lab</p>
         
         </div>
-      </div>
-    </section>
-   
-    <section id="analysis">
-      <h1><u>Analysis of Gel</u></h1>
-      <div class="row">
-        <div class="col-lg-12">
-          <h2>Description:</h2>
-          <p>In the top row, from lanes 2-9, there were no bands observed in Simran’s PCR colony. The positive 
-            control, which were from cells previously transformed and known to contain 6GIX, were in lanes 11-17, 
-            and show bands with the expected size of 6GIX (709bp). Since no bands were present in Simran’s PCR colony 
-            to indicate the presence of the 6GIX insert in the gel, and bands were present in the positive control, this 
-            indicates that the PCR amplification of 6GIX in Simran’s PCR colony was unsuccessful. In the bottom row, from lanes 
-            2-7 was the positive control, which shows the expected size of 6GIX, and Simran’s PCR colony was from lanes 9-16, 
-            which shows no bands. This indicates an unsuccessful PCR amplification of 6GIX.</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-2"></div>
-        <div class="col-lg-8">
-          <br><br><br>
-          <img style="width: 100%" src="images/gel.png" alt="">
-          <p><b>Figure 3.</b> 1% agarose gel showing colony PCR of 6GIX gene 
-            insert in pSB1C3. Ran gel at 100V for 30 minutes. Lanes from left to right on the top 
-            row of gel were BioBasic ladder (100-1500bp), Simran PCR Colony (lanes 2-9), and Positive 
-            Control (lanes 9-16). Lanes from left to right in the bottom row were BioBasic ladder 
-            (100-1500bp), Positive control (lanes 2-7), and Simran PCR colony (lanes 9-16). The expected 
-            band size for 6GIX is 709bp.</p>
       </div>
     </section>
     <footer class="green-dark-header">

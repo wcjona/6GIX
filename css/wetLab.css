@@ -32,13 +32,15 @@ h1{
     background: #E2B178;
 }
 #protocol{
-    padding: 1% 5%;
+    padding: 1% 5% 8%;
 }
 #protocol h2{
     color: #44270D;
 }
+/* FLOW DIAGRAM  */
 #flowDiagram-header{
-    background: white;
+    padding-left: 5%;
+    background:#FBF9EA;
     color:#525E45;
 }
 #flowDiagram{
@@ -46,6 +48,7 @@ h1{
     text-align: left;
     padding-bottom: 7%;
 }
+/* ANALYSIS OF GEL */
 #analysis{
     background:#FBF9EA;
     padding: 5% 12%;

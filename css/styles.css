@@ -8,6 +8,13 @@ body{
     padding-top: 65px;
     font-size: larger;
 }
+.logo{
+    border-radius: 50%;
+    
+}
+#navbar-brand{
+    color: white;
+}
 p{
     font-family: 'Spectral', serif;
 }
@@ -61,4 +68,6 @@ p{
     background-color: #4b5c38;
     padding: 2% 5% 1%;
     font-size: medium;
+    text-align: center;
+    color: white;
   }
