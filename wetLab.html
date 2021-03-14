@@ -5,7 +5,9 @@
     <!-- CSS Stylesheets -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
-    <!-- Font Awesome -->
+  <link rel="stylesheet" href="css/wetLab.css">
+    
+  <!-- Font Awesome -->
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
   
   
@@ -19,65 +21,269 @@
  <link href="https://fonts.googleapis.com/css2?family=Karla&family=Spectral:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-        <!-- NAVBAR -->
-        <section id="navbar">
-          <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-navbar">
-            <nav class="navbar navbar-light">
-              <a class="navbar-brand" href="index.html#banner">
-                <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt=""> Project Name</a>
-            </nav>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav  ml-auto">
-                    </li>
-                      <a class="nav-link" href="index.html#banner">Home</a>
-                    </li>
-                      <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="humanPractices.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Human Practices</a>
-                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <ul class="nav flex-column" style="margin-left: 0px">
-                              <li>
-                                <a class="dropdown-item" href="humanPractices.html#banner">The Problem</a>
-                              </li>
-                              <li>
-                                <a class="dropdown-item" href="humanPractices.html#ideate-header">Ideate</a>
-                              </li>
-                              <li>
-                                <a class="dropdown-item" href="humanPractices.html#design-sol">Design Solutions</a>
-                              </li>
-                              <li>
-                                <a class="dropdown-item" href="humanPractices.html">Evaluate and Iterate on Design</a>
-                              </li>
-                            </ul>
-                          </div>
+  <!-- NAVBAR -->
+  <section id="navbar">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-navbar">
+      <nav class="navbar navbar-light">
+        <a class="navbar-brand" href="index.html#banner">
+          <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt=""> Project Name</a>
+      </nav>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav  ml-auto">
+              </li>
+                <a class="nav-link" href="index.html#banner">Home</a>
+              </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="humanPractices.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Human Practices</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <ul class="nav flex-column" style="margin-left: 0px">
+                        <li>
+                          <a class="dropdown-item" href="humanPractices.html#problem">The Problem</a>
                         </li>
-                      <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Wet Lab Overview</a>
-                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <ul class="nav flex-column" style="margin-left: 0px">
-                              <li>
-                                <a class="dropdown-item" href="">Protocol</a>
-                              </li>
-                              <li>
-                                <a class="dropdown-item" href="">Analysis of the gel</a>
-                              </li>
-                              <li>
-                                <a class="dropdown-item" href="">Flow Diagram</a>
-                              </li>
-                            </ul>
-                          </div>
+                        <li>
+                          <a class="dropdown-item" href="humanPractices.html#ideate-header">Ideate</a>
                         </li>
+                        <li>
+                          <a class="dropdown-item" href="humanPractices.html#design-sol">Design Solutions</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="humanPractices.html#evaluate">Evaluate and Iterate on Design</a>
+                        </li>
+                      </ul>
+                    </div>
                   </li>
-                    <a class="nav-link" href="#">About Us</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Wet Lab Overview</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <ul class="nav flex-column" style="margin-left: 0px">
+                        <li>
+                          <a class="dropdown-item" href="wetLab.html#overview">Overview</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="wetLab.html#protocol">Protocol</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="wetLab.html#nextSteps">Analysis of the gel</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="wetLab.html">Flow Diagram</a>
+                        </li>
+                      </ul>
+                    </div>
                   </li>
-                </ul>
-              </div>
-            </nav>
-          </section>
+            </li>
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
     <!-- BANNER -->
     <section id="banner">
-        <img style="width: 100%" src="images/forest.jpg" alt="">
-        <h1 class="centered banner-text">Something interesting</h1>
+        <img style="width: 100%" src="images/forest.jfif" alt="">
+        <h1 class="centered banner-text">SYNTHETIC BIOLOGY SOLUTION TO EUTROPHICATION DETECT</h1>
+    </section>
+
+    <section id="overview-header" class="green-dark-header">
+      <h1>WET LAB OVERVIEW</h1>
+    </section>
+    <section id="overview">
+      <h2><b>Problem</b></h2>
+      <p>Eutrophication is a highly detrimental environmental condition that results from the flow of excess 
+        nutrients into aquatic systems (Carpenter 2005). This subsequently promotes the growth of plants and 
+        algal which results in depleted oxygen stores and the death of many aquatic organisms (Carpenter 2005). 
+        Chlorophyll a is often used as an indicator of water quality since it is able to indicate eutrophication 
+        in lakes (Doering et al., 2006). Since chlorophyll a is a photosynthetic pigment, it can be used as a direct 
+        indicator of algal production and ultimately eutrophic conditions if high concentrations of chlorophyll 
+        a are detected (Gholizadeh et al., 2016). Thus, detecting chlorophyll a levels will serve as an invaluable 
+        diagnostic tool to determine the level of water pollution in aquatic systems, so further steps can be taken 
+        to reduce the pollution. Currently, spectrometers with 90% acetone are used to quantify the level of chlorophyll 
+        a in water systems (Johan et al., 2014). However, this detection method is expensive, difficult to use, and slow, 
+        which makes it undesirable(Johan et al., 2014, Johan et al. 2018), and signifies the need for a novel solution. 
+      </p>
+    </section>
+
+
+    <section id="solution">
+      <h2 class="green-text"><b>Solution</b></h2>
+      <p>Our proposed solution is 6GIX. 6GIX is a water-soluble chlorophyll-binding protein (WSCP), composed of 4 
+        subunits (Palm et al., 2018), which is hypothesized to act as a transient carrier of chlorophyll a (Sillner 
+        et al., 2019). Due to the hydrophobic nature of chlorophyll a, emulsions can be used to capture and bind 
+        chlorophyll a to 6GIX (Sillner et al., 2019). Although 6GIX normally has a higher affinity for chlorophyll 
+        b, when a 4-6 amino acid loop is added, 6GIX will have a higher affinity to chlorophyll a (Palm et al., 2018). 
+        Thus, the gene encoding for 6GIX can be engineered and expressed in E. Coli, which allows for mass protein 
+        production (iGEM Calgary Team, 2019). This can then be used as a chlorophyll detection system, enabling the 
+        quality of water to be determined. 
+      </p>
+    </section>
+    <section id="protocol-header">
+      <h1><b>PROTOCOL</b></h1>
+    </section>
+    <section id="protocol">
+        <div class="row">
+          <div class="col-lg-3"></div>
+          <div class="col-lg-6">
+          <img style="width: 100%" src="images/labWorkflow.png" alt="">
+          <p><b>&nbsp;&nbsp;&nbsp;&nbsp;Figure 1:</b> Diagram showcasing the lab workflow of the steps currently completed in the lab</p>
+        </div>
+      </div>
+      <br><br><br>
+      <div class="row">
+        <div class="col-lg-5">
+          <h3 class="green-text">1. Digestion:</h3>
+           <p>
+              1) For insert DNA, to a microcentrifuge tube, add:
+              <br>&nbsp;&nbsp;&nbsp;&nbsp;- 15 ul of DNA 
+              <br>&nbsp;&nbsp;&nbsp;&nbsp;- 2μl of 10x Buffer 
+              <br>&nbsp;&nbsp;&nbsp;&nbsp;- 1μl of EcoR1 
+              <br>&nbsp;&nbsp;&nbsp;&nbsp;- 1μl of PstI
+              <br>&nbsp;&nbsp;&nbsp;&nbsp;- 1 μl of ddH20
+              <br>&nbsp;&nbsp;&nbsp;&nbsp;(Final volume = 20 μl)
+              <br>
+              <br>2) For vector DNA, to a microcentrifuge tube, add:
+              <br>&nbsp;&nbsp;&nbsp;&nbsp;- 5μl of psB1C3
+              <br>&nbsp;&nbsp;&nbsp;&nbsp;- 1μl of 2.1 x buffer
+              <br>&nbsp;&nbsp;&nbsp;&nbsp;- 11μl of EcoR1
+              <br>&nbsp;&nbsp;&nbsp;&nbsp;- 1μl of PstI
+              <br>&nbsp;&nbsp;&nbsp;&nbsp;- 2μl of ddH20
+              <br><br>3) Incubate at 37°C for 30 minutes to 3 hours
+              <br><br>4) Heat inactivate restriction enzymes at 82°C for 20 minutes
+              <br><br>5) For digest confirmations, run on regular agarose gel. For subsequent 
+              ligation, run on LMP gel and excise or gel-extract. Otherwise, store at -20°C
+           </p>
+        </div>
+        <div class="col-lg-2"></div>
+        <div class="col-lg-5">
+          <h3 class="green-text">2. Ligation:</h3>
+          <p>1) To a microcentrifuge tube, add:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;- 2 ul of Digested vector DNA 
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;- 20ul of Digested insert DNA (psB1C3)
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;- 3ul of aliquoted 10X T4 DNA ligase buffer
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;- 1μl of T4 DNA ligase (1U/μl)
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;- 4ul of ddH2O 
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;(Final volume = 30 ul)
+            <br><br>
+            2) Incubate at room temperature for 2 hours
+            <br><br>
+            3) Transform chemically competent cells with the ligation product. 
+            <br><br>
+            4) Leave remaining ligation product at room temperature overnight, and transform again 
+            the following day.
+            <br><br>
+            5) Store remaining product at -20°C
+          </p>
+        </div>
+      </div>
+      <br><br><br>
+      <div class="row">
+        <div class="col-lg-5">
+          <h3 class="green-text">3. Transformation:</h3>
+          <p>
+            1) Add ≤ 5μl (≤ 1/10 of the cell aliquot amount) of the DNA sample to a chemically 
+            competent cell aliquot. Mix by pipetting gently, then incubate on ice for 30 to 45 
+            minutes.
+            <br><br>
+            2) Heat shock at 42°C for 60-75s minutes
+            <br><br>
+            3) Incubate on ice for 5 minutes
+            <br><br>
+            4) Add 250μl of plain LB or SOC media aseptically, then incubate for 30 to 90 minutes 
+            at 37°C, shaking
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;- If resistance is Kan, must incubate for at least 1 hour
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;- SOC media = more nutrient rich media that may help growth 
+            <br><br>
+            5) Plate 100μl (if big plates) or 50μl (if small or half plates) aseptically
+            <br><br>
+            6) Incubate plate at 37°C overnight or until growth is observed
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; NOTE: Usually colonies that appear after two days are false positives
+          </p>
+        </div>
+        <div class="col-lg-2"></div>
+        <div class="col-lg-5">
+          <h3 class="green-text">4. cPCR:</h3>
+          <p>1) Create cPCR mastermix as follows:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;- 20μL 10X Taq Buffer
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;- 4μL 10μM VF2 primer (or other forward primer)
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;- 4μL 10μM VR primer (or other reverse primer)
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;- 4μL 10mM dNTPs
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;- 1μL Taq Polymerase
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;- 127μL ddH2O
+            <br><br>
+            2) Add 4μL of ddH2O to each PCR tube or well (of a 96-well plate)
+            <br><br>
+            3) Using pipette tips or sterile toothpicks, touch an individual labelled colony, 
+            swirl in the ddH2O, and then streak on masterplate. Repeat for as many colonies as desired.
+            <br><br>
+            4) Add 16μL of cPCR mastermix to each tube/well
+            <br><br>
+            5) Place in thermocycler and select or set up the appropriate program as follows:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;Initial denaturation → 95°C for 5 minutes
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;Repeat 30x:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. Denaturation → 95°C for 30 seconds
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii. Annealing → Tm - 5°C (For VF2/VR primers, 53°C) for 30 seconds
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; iii. Extension → 68°C for 1 minute per kilobase
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;- Final extension → 68°C for 5 minutes
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;- Hold at 4°C 
+          </p>
+        </div>
+      </div>
+      <br><br><br>
+      <div class="row">
+        <div class="col-lg-5">
+          <h3 class="green-text">5. Gel Electrophoresis:</h3>
+          <p>1) Mix 100ml of 1X TAE buffer with 1g of regular or LMP agarose (for a 1% gel). For a small gel, mix 30ml of 1X TAE with 0.3g agarose.
+            <br><br>
+            2) Microwave covered for about 1.5 minutes or until agarose is dissolved
+            <br><br>
+            3) Cool and add 4μl SYBR safe. For a small gel, add 1.5μl SYBR safe.
+            <br><br>
+            4) Set up gel tray and balance properly. Pour and cast gel. LMP gels should be cast in the fridge.
+            <br><br>
+            5) Run sample at 100V (regular gel) or 80V (LMP gel) until sample is ¾ of the way down the gel (20-30min)
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="nextSteps">
+      <div class="row">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-6">
+          <br><br><br>
+          <h2>Next Steps:</h2>
+          <p>We have currently accomplished a successful digestion, ligation, transformation, 
+            colony PCR, and gel electrophoresis. The next steps are to conduct a plasmid 
+            miniprep for digest confirmation and transform 6GIX into BL21 (DE3) E. coli. This 
+            is followed by subculturing and protein induction, before protein extraction and 
+            purification. Finally we will conduct an SDS page and Western Blot, which is 
+            followed by the characterization of our protein.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8">
+          <img style="width: 100%" src="images/gel.png" alt="">
+          <p><b>Figure 2.</b> 1% agarose gel showing colony PCR of 6GIX gene 
+            insert in pSB1C3. Ran gel at 100V for 30 minutes. Lanes from left to right on the top 
+            row of gel were BioBasic ladder (100-1500bp), Simran PCR Colony (lanes 2-9), and Positive 
+            Control (lanes 9-16). Lanes from left to right in the bottom row were BioBasic ladder 
+            (100-1500bp), Positive control (lanes 2-7), and Simran PCR colony (lanes 9-16). The expected 
+            band size for 6GIX is 709bp.</p>
+      </div>
+      
+      <div class="row">
+        <div class="col-lg-12">
+          <br><br><br>
+          <p>In the top row, from lanes 2-9, there were no bands observed in Simran’s PCR colony. The positive 
+            control, which were from cells previously transformed and known to contain 6GIX, were in lanes 11-17, 
+            and show bands with the expected size of 6GIX (709bp). Since no bands were present in Simran’s PCR colony 
+            to indicate the presence of the 6GIX insert in the gel, and bands were present in the positive control, this 
+            indicates that the PCR amplification of 6GIX in Simran’s PCR colony was unsuccessful. In the bottom row, from lanes 
+            2-7 was the positive control, which shows the expected size of 6GIX, and Simran’s PCR colony was from lanes 9-16, 
+            which shows no bands. This indicates an unsuccessful PCR amplification of 6GIX.</p>
+        </div>
+      </div>
     </section>

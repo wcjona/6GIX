@@ -1,0 +1,39 @@
+h1{
+    font-size: 3rem;
+}
+.banner-text{
+    background-color: #4b5c38;
+    padding: 1% 2%;
+    text-align: center;
+    font-size: 3rem;
+}
+#overview-header{
+    text-align: center;
+    padding: 1%;
+}
+#overview{
+    background-color: #606c38;
+    padding:7% 13%;
+    color:white;
+}
+#solution{
+    color:#44270D;
+    padding:7% 13%;
+}
+.green-text{
+    color:#525E45;
+}
+
+
+#protocol-header{
+    padding: 1%;
+    color:#44270D;
+    text-align: center;
+    background: #E2B178;
+}
+#protocol{
+    padding: 1% 5%;
+}
+#protocol h2{
+    color: #44270D;
+}
