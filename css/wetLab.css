@@ -37,3 +37,22 @@ h1{
 #protocol h2{
     color: #44270D;
 }
+#flowDiagram-header{
+    background: white;
+    color:#525E45;
+}
+#flowDiagram{
+    padding: 3% 5%;
+    text-align: left;
+    padding-bottom: 7%;
+}
+#analysis{
+    background:#FBF9EA;
+    padding: 5% 12%;
+    padding-bottom: 7%;
+}
+#analysis h1{
+    color: #44270D;
+    padding-bottom: 3%;
+    text-align: center;
+}
