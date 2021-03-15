@@ -38,6 +38,24 @@ p{
     left: 50%;
     transform: translate(-50%, -50%);
   }
+  @media only screen and (max-width: 1200px) {
+      .centered {
+        top: 30%;
+        font-size: 2rem;
+        }
+  }
+  @media only screen and (max-width: 650px) {
+    .centered {
+        top: 25%;
+        font-size: large;
+        }
+  }
+  @media only screen and (max-width: 650px) {
+    .centered {
+        top: 20%;
+    }
+    
+}
  .bg-navbar{
     background-color: #4b5c38;
 
