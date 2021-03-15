@@ -27,7 +27,6 @@ body{
 /* COMPONENTS */
 #components{
     padding: 7%;
-    background-color: white;
     text-align: center;
 }
 #components h1{
@@ -35,20 +34,20 @@ body{
     padding: 1% 2%;
     border-radius: 25px;
     align-items: center;
-    color: #525E45;
+    color: #4b5c38;
     margin: 0% 35%;
 }
 a:link {
     text-decoration: none;
-    color: #525E45; 
+    color: #4b5c38; 
     
   }
 .fa-5x{
-    color: #525E45;
+    color: #4b5c38;
 }
 .description{
     font-size: large;
-    color: #525E45;
+    color: #4b5c38;
 }
 .project-component{
     background: #F8F4DE;
