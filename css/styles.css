@@ -64,6 +64,13 @@ p{
   .green-dark-body b{
       color: #E2B178;
   }
+  #references{
+    padding: 5%;
+    background:#FBF9EA;
+}
+#references h1{
+    color: #44270D;
+}
   footer{
     background-color: #4b5c38;
     padding: 2% 5% 1%;

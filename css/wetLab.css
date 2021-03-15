@@ -59,3 +59,10 @@ h1{
     padding-bottom: 3%;
     text-align: center;
 }
+#references{
+    padding: 5%;
+    background:#FBF9EA;
+}
+#references h1{
+    color: #44270D;
+}
