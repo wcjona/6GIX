@@ -12,6 +12,7 @@ body{
     border-radius: 50%;
     
 }
+
 #navbar-brand{
     color: white;
 }
@@ -21,6 +22,7 @@ p{
 .navbar{
     font-size: large;
 }
+
 .banner-text{
     background-color: #4b5c38;
     padding: 1% 2%;
